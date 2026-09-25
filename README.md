@@ -4,6 +4,10 @@ A 2013 Nexus 7 was sitting in a drawer, getting very good at collecting dust. Bu
 
 The tablet shows whatever picture the server is currently willing to hand out. Touch that picture and the tablet tells the server about it. USB is only how the app gets installed. After that, the cable can go back in the drawer with whatever else lives there.
 
+This is an actual frame from the server, the same 1920×1200 picture the tablet draws, scaled down so it fits the page.
+
+<img src="docs/time-temp.png" width="960" alt="Time and temperature on the Nexus 7: a large clock, the current temperature, and a five-day forecast">
+
 The tablet is a Nexus 7 (`flo`), Android 6.0.1, API 23, landscape. The app is `com.andscreen`, built without Gradle from the Ubuntu Android packages (`android-sdk`, `android-sdk-platform-23`, `dalvik-exchange`, `openjdk-17-jdk`). The server is the Go 1.25 module `github.com/mlctrez/andscreen`. It paints the frame offscreen with `github.com/gogpu/ui` v0.1.54 and reads Fahrenheit weather from `github.com/briandowns/openweathermap` v0.21.1.
 
 One URL does both jobs. `GET` is the picture. `POST` is the touches.
