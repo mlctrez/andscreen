@@ -1,0 +1,21 @@
+# Secrets and this machine. A variable already set in the process is the service config.
+.env
+server/.env
+android/debug.keystore
+.tablet
+
+# IDE
+.idea/
+
+# Build output and binaries
+android/build/
+*.apk
+*.idsig
+*.dex
+*.class
+server.bin
+server/andscreen
+/andscreen
+
+# Generated preview from the live weather test
+server/time-temp.png

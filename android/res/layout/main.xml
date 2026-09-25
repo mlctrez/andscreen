@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff000000">
+
+    <com.andscreen.ImageScreen
+        android:id="@+id/screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="24dp"
+        android:background="#cc000000"
+        android:gravity="center"
+        android:padding="12dp"
+        android:textColor="#ffffffff"
+        android:textSize="16sp"
+        android:visibility="gone" />
+</FrameLayout>

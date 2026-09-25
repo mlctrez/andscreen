@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Andscreen</string>
+    <string name="server_address">Server address</string>
+    <string name="url_hint">http://192.168.1.10:8080/</string>
+    <string name="save">Save</string>
+    <string name="url_invalid">Enter an http:// or https:// address</string>
+</resources>
