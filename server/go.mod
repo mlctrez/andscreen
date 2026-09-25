@@ -10,8 +10,6 @@ require (
 	github.com/mlctrez/servicego v1.4.10
 )
 
-replace github.com/briandowns/openweathermap v0.21.1 => /home/mattman/golang/openweathermap
-
 require (
 	github.com/coregx/signals v0.1.1 // indirect
 	github.com/gogpu/gg v0.52.3 // indirect

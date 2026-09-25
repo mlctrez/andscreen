@@ -2,7 +2,7 @@
 
 Andscreen shows a picture on a Nexus 7 and sends touches on that picture to a server on the same Wi-Fi network. The tablet and the server share one URL: `GET` returns the current image, and `POST` sends touch events. USB is only for installing the app.
 
-The tablet is a 2013 Nexus 7 (`flo`), Android 6.0.1, API 23, 1920×1200 in landscape. The app is a small Java program, package `com.andscreen`, built without Gradle from the Ubuntu universe Android packages (`android-sdk`, `android-sdk-platform-23`, `dalvik-exchange`, `openjdk-17-jdk`). The server is the Go 1.25 module `github.com/mlctrez/andscreen`. It draws the frame offscreen with `github.com/gogpu/ui` v0.1.54 and reads Fahrenheit weather from `github.com/briandowns/openweathermap` v0.21.1, replaced in `go.mod` to `/home/mattman/golang/openweathermap`.
+The tablet is a 2013 Nexus 7 (`flo`), Android 6.0.1, API 23, 1920×1200 in landscape. The app is a small Java program, package `com.andscreen`, built without Gradle from the Ubuntu universe Android packages (`android-sdk`, `android-sdk-platform-23`, `dalvik-exchange`, `openjdk-17-jdk`). The server is the Go 1.25 module `github.com/mlctrez/andscreen`. It draws the frame offscreen with `github.com/gogpu/ui` v0.1.54 and reads Fahrenheit weather from `github.com/briandowns/openweathermap` v0.21.1.
 
 ## Tablet
 

@@ -1,3 +1,5 @@
+github.com/briandowns/openweathermap v0.21.1 h1:TPbuixuF+aGJP1mpgTNny6eUkdbvj7gqODGXkwhss48=
+github.com/briandowns/openweathermap v0.21.1/go.mod h1:0GLnknqicWxXnGi1IqoOaZIw+kIe5hkt+YM5WY3j8+0=
 github.com/coregx/signals v0.1.1 h1:YFDK5z35q2aSaJrVUEfuG31O5SpHqKyhadBnpUJrUko=
 github.com/coregx/signals v0.1.1/go.mod h1:ZTFOeupJF6b73QmxLcDqbB0V2f0TWnCyVkQlA+gMIm4=
 github.com/go-webgpu/goffi v0.6.3 h1:p4gKGikHBAQ/8iUiew9MV4C5M1ZGIsk8QGFGuJjMj+A=
